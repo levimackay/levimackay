@@ -76,12 +76,12 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 
 | Project | Description | Stack |
 |---|---|---|
-| [AIR (AI Router)](https://github.com/levimackay/air) | Load balancer for AI coding agent CLIs. Picks the best available agent, monitors it, checkpoints progress, and switches providers on failure or rate limit without losing work | `Go` `Cobra` `Bubble Tea` |
-| [Lydia](https://github.com/levimackay/lydia-cli) | Local AI coding agent for the terminal. Reads and edits code, runs commands, and drives git through a local Ollama model. No API keys, nothing leaves the machine | `Python` `Ollama` |
-| [SecurityScanner](https://github.com/levimackay/SecurityScanner) | CLI that scans a source file for vulnerabilities with the Gemini API, then prints findings sorted by severity and color coded in the terminal | `Python` `Gemini API` |
-| [PrecheckAI](https://github.com/levimackay/PrecheckAI) | A gate that makes you write down what you tried before an AI will help. One HTML file, zero dependencies | `JavaScript` `HTML` |
-| [C# DSA Academy](https://github.com/levimackay/csharp-dsa-academy) | Data structures and algorithms in C#. 12 offline first .NET modules, each a stub plus an xUnit suite that defines done, worked through module by module | `C#` `.NET` `xUnit` |
-| [Swift Academy](https://github.com/levimackay/swift-academy) | A 14 chapter Swift curriculum I built for myself. Every exercise ships as a stub plus a failing test, and I type every line | `Swift` `SwiftPM` |
+| [FORGE](https://github.com/levimackay/forge) | Native iOS system that turns long term goals into adaptive daily missions. Phase 0 right now: architecture, decision records, and roadmap are written, app code starts next | `Swift 6` `iOS 26` |
+| [Lydia](https://github.com/levimackay/lydia-cli) | Local AI coding agent for the terminal. Reads and edits code, runs commands, and drives git through a local Ollama model. No API keys, nothing leaves the machine | `Python 3.11+` `Ollama` |
+| [SecurityScanner](https://github.com/levimackay/SecurityScanner) | CLI that scans a source file for vulnerabilities with Gemini, then prints findings sorted by severity and color coded in the terminal | `Python` `Gemini 2.5 Flash` |
+| [RepoVisualizer](https://github.com/levimackay/RepoVisualizer) | Walks a repository recursively and writes a Markdown report of the folder hierarchy, file types, sizes, and largest files | `C#` `.NET` |
+| [nfc-card](https://github.com/levimackay/nfc-card) | Digital business card living on an NFC tag. One tap opens my portfolio, projects, and contact details. No framework, deployed to GitHub Pages | `HTML` `CSS` `JavaScript` |
+| [Srpsko-Hrvatski](https://github.com/levimackay/srpsko-hrvatski) | A Serbo-Croatian dictionary I compiled in the field across Croatia, Serbia, and Bosnia, typeset into a finished 301 page book. 5,709 entries, and anything added during the build carries a ° so it never passes as field work | `Typst` `Python` |
 
 <br>
 
@@ -117,7 +117,7 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 </div>
 
 ---
-**Last updated:** 2026-08-13 14:59 MDT
+**Last updated:** 2026-08-13 20:21 MDT
 
 ---
 

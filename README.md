@@ -80,7 +80,7 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 | [Lydia](https://github.com/levimackay/lydia-cli) | Local AI coding agent for the terminal. Reads and edits code, runs commands, and drives git through a local Ollama model. No API keys, nothing leaves the machine | `Python 3.11+` `Ollama` |
 | [SecurityScanner](https://github.com/levimackay/SecurityScanner) | CLI that scans a source file for vulnerabilities with Gemini, then prints findings sorted by severity and color coded in the terminal | `Python` `Gemini 2.5 Flash` |
 | [RepoVisualizer](https://github.com/levimackay/RepoVisualizer) | Walks a repository recursively and writes a Markdown report of the folder hierarchy, file types, sizes, and largest files | `C#` `.NET` |
-| [nfc-card](https://github.com/levimackay/nfc-card) | Digital business card living on an NFC tag. One tap opens my portfolio, projects, and contact details. No framework, deployed to GitHub Pages | `HTML` `CSS` `JavaScript` |
+| [bug-hunt](https://github.com/levimackay/bug-hunt) | A realistic software engineering simulator: investigate bugs, debug real codebases, ship fixes, build practical debugging skills | `Python` `TypeScript` |
 | [Srpsko-Hrvatski](https://github.com/levimackay/srpsko-hrvatski) | A Serbo-Croatian dictionary I compiled in the field across Croatia, Serbia, and Bosnia, typeset into a finished 301 page book. 5,709 entries, and anything added during the build carries a ° so it never passes as field work | `Typst` `Python` |
 
 <br>
@@ -92,6 +92,12 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 <div align="center">
 
 ![Streak stats](./profile/streak.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution grid snake animation" src="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 

@@ -121,6 +121,3 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 **"Let's build something real."**
 
 </div>
-
-**Last updated:** 2026-08-25 08:04 PDT
-

@@ -122,4 +122,4 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 
 </div>
 
-**Last updated:** 2026-08-24 07:33 PDT
+**Last updated:** 2026-08-25 08:04 PDT

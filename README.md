@@ -60,13 +60,11 @@
 > featured.project
 ```
 
-### [PreCheck AI](https://github.com/levimackay/PrecheckAI)
+### [tinylang](https://github.com/levimackay/tinylang)
 
-A pre-AI checklist gate for coding practice. Before you ask an assistant for help, you have to prove in writing that you actually tried the problem yourself. Live validation, auto-assembled hint prompts, and local streak tracking.
+A programming language built from scratch in C, by hand, no AI-written code — lexer, recursive-descent parser, tree-walking interpreter, then a bytecode compiler and stack-based VM. Currently on Phase 0, working through the C fundamentals that the language itself is built on.
 
-[![Stars](https://img.shields.io/github/stars/levimackay/PrecheckAI?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/PrecheckAI/stargazers)
-[![License: MIT](https://img.shields.io/badge/license-MIT-00FF9D?style=flat-square&labelColor=000000)](https://github.com/levimackay/PrecheckAI/blob/main/LICENSE)
-[![Zero dependencies](https://img.shields.io/badge/dependencies-zero%20install-00FF9D?style=flat-square&labelColor=000000)](https://github.com/levimackay/PrecheckAI)
+[![Stars](https://img.shields.io/github/stars/levimackay/tinylang?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/tinylang/stargazers)
 
 <br>
 
@@ -77,11 +75,9 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 | Project | Description | Stack |
 |---|---|---|
 | [FORGE](https://github.com/levimackay/forge) | Native iOS system that turns long term goals into adaptive daily missions. Phase 0 right now: architecture, decision records, and roadmap are written, app code starts next | `Swift 6` `iOS 26` |
-| [Lydia](https://github.com/levimackay/lydia-cli) | Local AI coding agent for the terminal. Reads and edits code, runs commands, and drives git through a local Ollama model. No API keys, nothing leaves the machine | `Python 3.11+` `Ollama` |
-| [SecurityScanner](https://github.com/levimackay/SecurityScanner) | CLI that scans a source file for vulnerabilities with Gemini, then prints findings sorted by severity and color coded in the terminal | `Python` `Gemini 2.5 Flash` |
-| [RepoVisualizer](https://github.com/levimackay/RepoVisualizer) | Walks a repository recursively and writes a Markdown report of the folder hierarchy, file types, sizes, and largest files | `C#` `.NET` |
-| [bug-hunt](https://github.com/levimackay/bug-hunt) | A realistic software engineering simulator: investigate bugs, debug real codebases, ship fixes, build practical debugging skills | `Python` `TypeScript` |
-| [Srpsko-Hrvatski](https://github.com/levimackay/srpsko-hrvatski) | A Serbo-Croatian dictionary I compiled in the field across Croatia, Serbia, and Bosnia, typeset into a finished 301 page book. 5,709 entries, and anything added during the build carries a ° so it never passes as field work | `Typst` `Python` |
+| [TaHelper](https://github.com/levimackay/TaHelper) | SwiftUI dashboard for a Canvas LMS teaching assistant, listing enrolled students sorted by at-risk score | `Swift` `SwiftUI` |
+| [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap and scaffolding done, Phase 0 starting | `C` |
+| [tinylang](https://github.com/levimackay/tinylang) | A programming language built from scratch in C: lexer, parser, tree-walking interpreter, bytecode VM. Phase 0 (C fundamentals) in progress | `C` |
 
 <br>
 
@@ -122,5 +118,5 @@ A pre-AI checklist gate for coding practice. Before you ask an assistant for hel
 
 </div>
 
-**Last updated:** 2026-08-28 07:09 PDT
+**Last updated:** 2026-08-28 09:40 PDT
 

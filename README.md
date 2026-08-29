@@ -60,11 +60,11 @@
 > featured.project
 ```
 
-### [tinylang](https://github.com/levimackay/tinylang)
+### [izvor](https://github.com/levimackay/izvor)
 
-A programming language built from scratch in C, by hand, no AI-written code — lexer, recursive-descent parser, tree-walking interpreter, then a bytecode compiler and stack-based VM. Currently on Phase 0, working through the C fundamentals that the language itself is built on.
+A programming language built from scratch in C, by hand, no AI-written code — lexer, recursive-descent parser, tree-walking interpreter, then a bytecode compiler and stack-based VM. The lexer is done and tested; the recursive-descent parser is next.
 
-[![Stars](https://img.shields.io/github/stars/levimackay/tinylang?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/tinylang/stargazers)
+[![Stars](https://img.shields.io/github/stars/levimackay/izvor?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/izvor/stargazers)
 
 <br>
 
@@ -77,7 +77,7 @@ A programming language built from scratch in C, by hand, no AI-written code — 
 | [FORGE](https://github.com/levimackay/forge) | Native iOS system that turns long term goals into adaptive daily missions. Phase 0 right now: architecture, decision records, and roadmap are written, app code starts next | `Swift 6` `iOS 26` |
 | [TaHelper](https://github.com/levimackay/TaHelper) | SwiftUI dashboard for a Canvas LMS teaching assistant, listing enrolled students sorted by at-risk score | `Swift` `SwiftUI` |
 | [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap and scaffolding done, Phase 0 starting | `C` |
-| [tinylang](https://github.com/levimackay/tinylang) | A programming language built from scratch in C: lexer, parser, tree-walking interpreter, bytecode VM. Phase 0 (C fundamentals) in progress | `C` |
+| [izvor](https://github.com/levimackay/izvor) | A programming language built from scratch in C: lexer done and tested, recursive-descent parser next, then interpreter and bytecode VM | `C` |
 
 <br>
 

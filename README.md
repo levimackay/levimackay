@@ -83,8 +83,7 @@ A programming language built from scratch in C, by hand, no AI-written code — 
 
 Lydia and [canvas-risk](https://github.com/levimackay/canvas-risk) were built
 with heavy AI assistance, and both READMEs say so. The architecture, the
-decisions and the review are mine. izvor, minidb and canvas-ta-tool are the
-hand-written ones.
+decisions and the review are mine.
 
 <br>
 

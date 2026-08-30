@@ -74,9 +74,8 @@ A programming language built from scratch in C, by hand, no AI-written code — 
 
 | Project | Description | Stack |
 |---|---|---|
-| [FORGE](https://github.com/levimackay/forge) | Native iOS system that turns long term goals into adaptive daily missions. Phase 0 right now: architecture, decision records, and roadmap are written, app code starts next | `Swift 6` `iOS 26` |
+| [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping for technical interviews. Phase 0: architecture, decision records and roadmap written, app code next | `Swift 6` `iOS 26` |
 | [Lydia](https://github.com/levimackay/lydia-cli) | A local AI coding agent for the terminal, running on your own Ollama model with no API keys and nothing leaving your machine. On PyPI, tests green on Python 3.11 to 3.13, with merged pull requests from outside contributors | `Python` `Ollama` |
-| [canvas-ta-tool](https://github.com/levimackay/canvas-ta-tool) | The terminal dashboard I actually ran as a TA: what needs grading sorted by who has waited longest, missing work by student or by assignment, and per-student grade detail, straight from the Canvas API | `Python` `rich` |
 | [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap and scaffolding done, Phase 0 starting | `C` |
 | [izvor](https://github.com/levimackay/izvor) | A programming language built from scratch in C: lexer done and tested, recursive-descent parser next, then interpreter and bytecode VM | `C` |
 

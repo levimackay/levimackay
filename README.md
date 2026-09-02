@@ -62,7 +62,7 @@
 
 ### [izvor](https://github.com/levimackay/izvor)
 
-A programming language built from scratch in C, by hand, no AI-written code — lexer, recursive-descent parser, tree-walking interpreter, then a bytecode compiler and stack-based VM. The lexer is done and tested; the recursive-descent parser is next.
+A programming language built from scratch in C, by hand, no AI-written code — lexer, recursive-descent parser, tree-walking interpreter, then a bytecode compiler and stack-based VM. The lexer and parser are done, and the tree-walking interpreter runs arithmetic end to end; statements and variables are next.
 
 [![Stars](https://img.shields.io/github/stars/levimackay/izvor?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/izvor/stargazers)
 
@@ -77,7 +77,7 @@ A programming language built from scratch in C, by hand, no AI-written code — 
 | [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping for technical interviews. Phase 1: core loop, Xcode project and package split in place, domain model and persistence next | `Swift 6` `iOS 26` |
 | [Lydia](https://github.com/levimackay/lydia-cli) | A local AI coding agent for the terminal, running on your own Ollama model with no API keys and nothing leaving your machine. On PyPI, tests green on Python 3.11 to 3.13, with merged pull requests from outside contributors | `Python` `Ollama` |
 | [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap and scaffolding done, Phase 0 starting | `C` |
-| [izvor](https://github.com/levimackay/izvor) | A programming language built from scratch in C: lexer done and tested, recursive-descent parser next, then interpreter and bytecode VM | `C` |
+| [izvor](https://github.com/levimackay/izvor) | A programming language built from scratch in C: lexer and recursive-descent parser done, tree-walking interpreter runs arithmetic end to end, statements and variables next | `C` |
 
 
 Lydia and [canvas-risk](https://github.com/levimackay/canvas-risk) were built

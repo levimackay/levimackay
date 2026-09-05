@@ -105,6 +105,18 @@ decisions and the review are mine.
 <br>
 
 ```
+> leetcode.grind
+```
+
+<div align="center">
+
+[![LeetCode stats for lmack03](https://leetcard.jacoblin.cool/lmack03?colors=000000,0d1117,00ff9d,c9d1d9,00ff9d,00ff9d,ffb700,ff4d6d&font=Fira_Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/lmack03/)
+
+</div>
+
+<br>
+
+```
 > contact.init()
 ```
 

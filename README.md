@@ -49,7 +49,7 @@
 
 ```json
 {
-  "izvor":    "statements and variables, then a bytecode compiler and a stack VM",
+  "izvor":    "names and keywords, then statements and variables, then a C backend",
   "learning": "Swift from zero, 14 modules, every line written by hand",
   "prepping": "data structures and algorithms for Summer 2027 internships"
 }
@@ -63,17 +63,22 @@
 
 ### [izvor](https://github.com/levimackay/izvor)
 
-A programming language built from scratch in C, by hand, no AI-written code: a
-lexer, a recursive-descent parser, a tree-walking interpreter, then a bytecode
-compiler and a stack-based VM. The lexer and parser are done and the interpreter
-runs arithmetic end to end, one function per precedence level, errors reporting
-the exact offset and what was expected. Statements and variables are next.
+A programming language built from scratch in C: a lexer, a recursive-descent
+parser, and a syntax tree, heading for a C backend that hands off to clang and
+produces a native binary. The front end is done, one function per precedence
+level, and errors report the file, line and column with a caret under the
+offending character. Statements and variables are next.
 
 ```
-$ izvor "-(1 + 2) * 3 - 4 / 2"
+$ izvor -e "-(1 + 2) * 3 - 4 / 2"
 (- (* (- (+ 1 2)) 3) (/ 4 2))
 = -11
 ```
+
+I am writing it up as a free course at
+[tutorial.levimackay.com](https://tutorial.levimackay.com), a chapter per stage,
+every line explained. A chapter only goes up once the code behind it is in the
+repo and passing its tests.
 
 [![Stars](https://img.shields.io/github/stars/levimackay/izvor?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/izvor/stargazers)
 
@@ -85,15 +90,19 @@ $ izvor "-(1 + 2) * 3 - 4 / 2"
 
 | Project | Description | Stack |
 |---|---|---|
-| [izvor](https://github.com/levimackay/izvor) | A programming language from scratch in C. Lexer and recursive-descent parser done, tree-walking interpreter runs arithmetic end to end, statements and variables next | `C` |
+| [izvor](https://github.com/levimackay/izvor) | A programming language from scratch in C. Lexer, recursive-descent parser and syntax tree done, with diagnostics that point at the offending character. Written up chapter by chapter at [tutorial.levimackay.com](https://tutorial.levimackay.com) | `C` |
 | [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap and scaffolding done, Phase 0 starting | `C` |
 | [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping technical interviews, with a skill tree that recommends against what you actually complete. Phase 1, Xcode project and package split in place, domain model and persistence next | `Swift 6` `iOS 26` |
 | [Lydia](https://github.com/levimackay/lydia-cli) | A local AI coding agent for the terminal, running on your own Ollama model with no API keys and nothing leaving your machine. On PyPI, tests green on Python 3.11 to 3.13, with merged pull requests from outside contributors | `Python` `Ollama` |
 
-izvor and minidb are hand written C with no AI-written code, which is the point
-of them. Lydia and [canvas-risk](https://github.com/levimackay/canvas-risk) were
-built with heavy AI assistance and both READMEs say so. The architecture, the
-decisions and the review are mine in every case.
+I write the compilers themselves. Every line of izvor's lexer, parser and syntax
+tree is mine, and the same goes for minidb, which is the point of both projects.
+The tooling around izvor is a different story: its diagnostics module, test
+harness, fuzzer and CI were built with AI assistance, and so was the course site
+at [tutorial.levimackay.com](https://tutorial.levimackay.com). Lydia and
+[canvas-risk](https://github.com/levimackay/canvas-risk) were built with heavy AI
+assistance and both READMEs say so. The architecture, the decisions and the
+review are mine in every case.
 
 <br>
 

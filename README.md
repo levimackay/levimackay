@@ -121,3 +121,15 @@ review are mine in every case.
 </picture>
 
 </div>
+
+<br>
+
+```
+> leetcode.grind
+```
+
+<div align="center">
+
+[![LeetCode stats for lmack03](https://leetcard.jacoblin.cool/lmack03?font=Fira_Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/lmack03/)
+
+</div>

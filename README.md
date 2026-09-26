@@ -77,8 +77,8 @@ git clone https://github.com/levimackay/izvor && cd izvor && make
 | Project | Description | Stack |
 |---|---|---|
 | [Lydia](https://github.com/levimackay/lydia-cli) | A local coding agent that reads and edits code, runs commands, and uses Ollama without cloud API keys. Open source, with merged contributions from developers outside the project | `Python` `Ollama` |
-| [Main Street Sites](https://levimackay.com/projects/#mainstreet) | My web design studio for eastern Idaho businesses, built around real client work | `HTML` `CSS` `JS` |
-| [Srpsko-Hrvatski](https://github.com/levimackay/srpsko-hrvatski) | A 301-page Serbo-Croatian dictionary assembled in Croatia, Serbia, and Bosnia from 5,709 field entries | `Typst` `Python` |
+| [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap done, Phases 0 and 1 scaffolded with tests | `C` |
+| [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping technical interviews, with a skill tree that recommends against what you actually complete. Xcode project and package split in place, domain model and persistence next | `Swift 6` `iOS 26` |
 
 <br>
 

@@ -35,7 +35,7 @@ I build systems from the inside out: a programming language in C, a local develo
 
 **Frameworks & Tools**
 <hr>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,express,dotnet,postgres,git,github,githubactions,vscode,linux" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,express,dotnet,postgres,supabase,git,github,githubactions,vscode,linux" />
 
 [![Xcode](https://img.shields.io/badge/Xcode-000000?style=for-the-badge&logo=xcode&logoColor=147EFB)](https://developer.apple.com/xcode/)
 [![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com)

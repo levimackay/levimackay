@@ -79,6 +79,7 @@ git clone https://github.com/levimackay/izvor && cd izvor && make
 | [Lydia](https://github.com/levimackay/lydia-cli) | A local coding agent that reads and edits code, runs commands, and uses Ollama without cloud API keys. Open source, with merged contributions from developers outside the project | `Python` `Ollama` |
 | [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap done, Phases 0 and 1 scaffolded with tests | `C` |
 | [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping technical interviews, with a skill tree that recommends against what you actually complete. Xcode project and package split in place, domain model and persistence next | `Swift 6` `iOS 26` |
+| [lsh](https://github.com/levimackay/lsh) | A Unix shell written in C. Runs programs with fork, execvp and waitpid, has cd, help and exit built in, reads lines of any length, and is checked with AddressSanitizer. Pipes, redirects and a real parser are next | `C` |
 
 <br>
 

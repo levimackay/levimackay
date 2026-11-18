@@ -2,111 +2,50 @@
 
 # Levi Mackay
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1800&color=00FF9D&center=true&vCenter=true&width=580&lines=Built+a+compiler+in+C%2C+source+to+native+binary;Building+a+database+engine+from+the+bytes+up;CS+at+BYU-Idaho+%C2%B7+3.98+GPA;Open+to+SWE+Internships+%C2%B7+Summer+2027" alt="Typing SVG" />
+**Computer Science at BYU-Idaho, looking for a Summer 2027 software engineering internship**
 
-[![Portfolio](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=00ff9d)](https://levimackay.com/)
-[![Resume](https://img.shields.io/badge/resume-000000?style=for-the-badge&logo=readthedocs&logoColor=00ff9d)](https://levimackay.com/resume.pdf)
-[![LinkedIn](https://img.shields.io/badge/linkedin-000000?style=for-the-badge&logo=linkedin&logoColor=0a66c2)](https://www.linkedin.com/in/levi-mackay-217380396/)
-[![Contact](https://img.shields.io/badge/contact-000000?style=for-the-badge&logo=maildotru&logoColor=00ff9d)](https://levimackay.com/#contact)
+3.98 GPA · Minor in AI Engineering · CS teaching assistant · Graduating December 2027
+
+[Resume](https://levimackay.com/resume.pdf) · [Portfolio](https://levimackay.com/) · [LinkedIn](https://www.linkedin.com/in/levi-mackay-217380396/) · [Contact](https://levimackay.com/#contact)
 
 </div>
 
-<br>
+I write C by hand to learn how the machine works. I direct AI coding agents to build the rest, in Swift, Go, Python and TypeScript, including a live site for my university department and a site for a paying client. Both kinds of work are below, labeled.
 
-```
-> whoami
-```
+## Written by hand
 
-I build systems from the inside out: a programming language in C, a local developer tool in Python, and software for real customers.
+I wrote most of Izvor by hand, and all of lsh.
 
-- Computer Science at BYU-Idaho, 3.98 GPA, graduating December 2027
-- Teaching assistant in the CS department
-- Open to **Summer 2027** software engineering internships
+### [Izvor](https://github.com/levimackay/izvor): a compiler and interpreter in C
 
-<br>
+Izvor is a small statically typed language. Its implementation is about 2,800 lines of C11: a lexer, a recursive-descent parser, a type checker, a tree-walking interpreter, and a code generator that emits C, which the system C compiler turns into a native binary. It has no third-party dependencies and no parser generator.
 
-```
-> tech.stack
-```
+- 41 [golden programs](https://github.com/levimackay/izvor/tree/main/tests/golden) must print byte-for-byte identical output interpreted and compiled, errors included.
+- A fixed-seed fuzzer pushes 20,000 inputs through the lexer and parser, through the type checker when they parse, and through the code generator when they type-check.
+- CI runs on Linux and macOS under UndefinedBehaviorSanitizer, with a separate AddressSanitizer job on Linux.
 
-**Languages**
-<hr>
-<img src="https://skillicons.dev/icons?i=c,swift,python,ts,js,cs,html,css" />
-
-**Frameworks & Tools**
-<hr>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,express,dotnet,postgres,supabase,git,github,githubactions,vscode,linux" />
-
-[![Xcode](https://img.shields.io/badge/Xcode-000000?style=for-the-badge&logo=xcode&logoColor=147EFB)](https://developer.apple.com/xcode/)
-[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com)
-[![Tailscale](https://img.shields.io/badge/Tailscale-000000?style=for-the-badge&logo=tailscale&logoColor=white)](https://tailscale.com)
-
-<br>
-
-```
-> featured.project
-```
-
-### [Izvor](https://github.com/levimackay/izvor): source code to native executable
-
-A statically typed programming language with a complete path from `.iz` source to a native binary. The compiler is written in C11 with no third-party dependencies, parser generator, or LLVM.
+The language has integers, booleans, typed functions, recursion and loops, with checked arithmetic and a defined evaluation order. It does not have strings, arrays or structs yet. [Try it in the browser](https://levimackay.com/) or read the [architecture notes](https://github.com/levimackay/izvor/blob/main/docs/ARCHITECTURE.md).
 
 <a href="https://github.com/levimackay/izvor"><img src="https://raw.githubusercontent.com/levimackay/izvor/main/docs/img/hero.svg" width="100%" alt="Actual Izvor compiler output tracing a Fibonacci expression through tokens, typed syntax tree, generated C, and the compiled program's output"></a>
 
-The lexer, recursive-descent parser, type checker, interpreter, and C code generator form one working pipeline. Izvor handles typed functions, recursion, mutable and immutable bindings, control flow, and checked arithmetic. It reports errors with the file, line, column, and a caret under the offending expression.
+**[lsh](https://github.com/levimackay/lsh)** is the Unix shell I am writing in C. It follows Stephen Brennan's [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/) tutorial and is about 80 lines so far: it reads a line with `getline`, runs programs with `fork`, `execvp` and `waitpid`, and has `cd`, `help` and `exit` built in. Pipes, redirects and a real parser are next.
 
-The interpreter and compiled binary must produce byte-for-byte identical output for all **36 golden programs**, including errors. A fixed-seed fuzzer runs **20,000 inputs** through the front end; CI also runs the tests on Linux and macOS with sanitizers.
+## Built with AI coding agents
 
-```sh
-git clone https://github.com/levimackay/izvor && cd izvor && make
-./build/izvor run examples/fib.iz    # interpret
-./build/izvor build examples/fib.iz  # build a native executable
-./examples/fib
-```
+I built these by directing AI coding agents. The agent writes the code, tests included. The spec, the architecture, what gets tested and the review are mine. I want to be good at both: writing the code myself, and getting software I can vouch for out of an agent.
 
-[Read the architecture](https://github.com/levimackay/izvor/blob/main/docs/ARCHITECTURE.md) · [See the tests](https://github.com/levimackay/izvor/tree/main/tests/golden) · [Explore the language](https://github.com/levimackay/izvor)
+- **[CSE Videos](https://byui-cse.github.io/cse-videos/)** is the video library of the BYU-Idaho Department of Computer Science and Engineering. It is live and sits in the department's GitHub organization. A faculty member set the requirements and I am the only developer on the [repo](https://github.com/byui-cse/cse-videos). Pages are static HTML built ahead of time, so every page renders without JavaScript. CI runs data validation, unit tests and Playwright end-to-end tests on every pull request.
+- **[beacon](https://github.com/levimackay/beacon)** is a native macOS menu bar app and WidgetKit widget in SwiftUI (about 2,150 lines of Swift) that monitors my own machines and websites. A Go hub collects host metrics and website checks into SQLite. CI runs 235 Go tests under the race detector. The design doc, an agent-run security audit and the fixes it led to are all in the repo.
+- **[Lydia](https://github.com/levimackay/lydia-cli)** is a local AI coding agent for the terminal. It runs on local Ollama models with no API keys needed, reads code, proposes edits as diffs to confirm, runs commands and drives git. It is on [PyPI](https://pypi.org/project/lydia-cli/), has 413 tests with CI on Python 3.11 to 3.13, and has two merged pull requests from outside developers.
+- **[McKay Jewelers](https://mckayjewelersmagicvalley.com)** is a jewelry store in Twin Falls, Idaho, and my first paying client. I wrote the contract, then designed, built and launched the site on Cloudflare, including the domain and DNS. [Case study](https://levimackay.com/work/mckay-jewelers/).
+- **[contrail](https://github.com/levimackay/contrail)** is a prototype Claude Code plugin in TypeScript. It shows the trail behind an agent's edits and commands and grades each link by the evidence for it. 302 tests.
 
-[![Stars](https://img.shields.io/github/stars/levimackay/izvor?style=flat-square&color=00FF9D&labelColor=000000)](https://github.com/levimackay/izvor/stargazers)
+## Experience
 
-<br>
+- **CS Teaching Assistant, BYU-Idaho** (April 2026 to present). I coach about 100 students a semester on programming and debugging, and I promote internships and employer visits alongside CS faculty.
+- **Fellow, Sandbox at BYU-Idaho** (September 2026 to present). A year-long venture program where student teams build a tech startup. I run customer discovery interviews and build prototypes with my team.
+- **Founder and Developer, Main Street Sites** (May 2026 to present). A one-person web studio. McKay Jewelers is its first paying client.
 
-```
-> other.work
-```
+I speak Serbian, Croatian and Bosnian, and compiled a 301-page [Serbo-Croatian dictionary](https://github.com/levimackay/srpsko-hrvatski) from two years of my own handwritten field notes.
 
-| Project | Description | Stack |
-|---|---|---|
-| [Lydia](https://github.com/levimackay/lydia-cli) | A local coding agent that reads and edits code, runs commands, and uses Ollama without cloud API keys. Open source, with merged contributions from developers outside the project | `Python` `Ollama` |
-| [minidb](https://github.com/levimackay/minidb) | A single-file database engine written by hand in C: binary formats, paging, B-trees, cursors, a SQL parser. Roadmap done, Phases 0 and 1 scaffolded with tests | `C` |
-| [FORGE](https://github.com/levimackay/forge) | A native iOS Duolingo for CS fundamentals: DSA practice for students prepping technical interviews, with a skill tree that recommends against what you actually complete. Xcode project and package split in place, domain model and persistence next | `Swift 6` `iOS 26` |
-| [lsh](https://github.com/levimackay/lsh) | A Unix shell written in C. Runs programs with fork, execvp and waitpid, has cd, help and exit built in, reads lines of any length, and is checked with AddressSanitizer. Pipes, redirects and a real parser are next | `C` |
-
-<br>
-
-```
-> github.stats
-```
-
-<div align="center">
-
-![Streak stats](./profile/streak.svg)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution grid snake animation" src="https://raw.githubusercontent.com/levimackay/levimackay/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
-<br>
-
-```
-> leetcode.grind
-```
-
-<div align="center">
-
-[![LeetCode stats for lmack03](https://leetcard.jacoblin.cool/lmack03?font=Fira_Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/lmack03/)
-
-</div>
+I am looking for a Summer 2027 software engineering internship. My [resume](https://levimackay.com/resume.pdf) has the details, and you can reach me through [my portfolio](https://levimackay.com/#contact) or [LinkedIn](https://www.linkedin.com/in/levi-mackay-217380396/).
